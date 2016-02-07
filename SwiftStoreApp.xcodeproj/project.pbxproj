@@ -815,6 +815,7 @@
 				FF1AE36B1C54CBDD00F24619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF1AE36C1C54CBDD00F24619 /* Build configuration list for PBXNativeTarget "SwiftStoreAppTests" */ = {
 			isa = XCConfigurationList;
@@ -823,6 +824,7 @@
 				FF1AE36E1C54CBDD00F24619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF1AE36F1C54CBDD00F24619 /* Build configuration list for PBXNativeTarget "SwiftStoreAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -831,6 +833,7 @@
 				FF1AE3711C54CBDD00F24619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
