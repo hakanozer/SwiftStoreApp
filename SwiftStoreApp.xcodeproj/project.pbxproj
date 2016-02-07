@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0D7B9981C66393A002A8317 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D7B9971C66393A002A8317 /* basket.png */; };
+		E0E040BE1C5CA19A00C1E72D /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E040BD1C5CA19A00C1E72D /* ProductList.swift */; };
+		E0E040C11C5CB77300C1E72D /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E040C01C5CB77300C1E72D /* ProductDetail.swift */; };
+		E0E040C51C5CD2D300C1E72D /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E040C41C5CD2D300C1E72D /* PageItemController.swift */; };
+		E0E6660E1C60EEDE00DD479B /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E6660D1C60EEDE00DD479B /* UserLogin.swift */; };
+		E0E666101C60EF2000DD479B /* UserRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E6660F1C60EF2000DD479B /* UserRegistration.swift */; };
+		E0F3BA8C1C65E8AF00F7C71C /* Y1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F3BA881C65E8AF00F7C71C /* Y1.png */; };
+		E0F3BA8E1C65E8AF00F7C71C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F3BA8A1C65E8AF00F7C71C /* 1.png */; };
 		FF1AE3451C54CBDD00F24619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AE3441C54CBDD00F24619 /* AppDelegate.swift */; };
-		FF1AE3471C54CBDD00F24619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AE3461C54CBDD00F24619 /* ViewController.swift */; };
 		FF1AE34A1C54CBDD00F24619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1AE3481C54CBDD00F24619 /* Main.storyboard */; };
 		FF1AE34C1C54CBDD00F24619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1AE34B1C54CBDD00F24619 /* Assets.xcassets */; };
 		FF1AE34F1C54CBDD00F24619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1AE34D1C54CBDD00F24619 /* LaunchScreen.storyboard */; };
@@ -132,9 +139,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E0D7B9971C66393A002A8317 /* basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
+		E0E040BD1C5CA19A00C1E72D /* ProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductList.swift; path = SwiftStoreApp/ProductList.swift; sourceTree = "<group>"; };
+		E0E040C01C5CB77300C1E72D /* ProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		E0E040C41C5CD2D300C1E72D /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageItemController.swift; path = SwiftStoreApp/PageItemController.swift; sourceTree = "<group>"; };
+		E0E6660D1C60EEDE00DD479B /* UserLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserLogin.swift; path = SwiftStoreApp/UserLogin.swift; sourceTree = "<group>"; };
+		E0E6660F1C60EF2000DD479B /* UserRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRegistration.swift; path = SwiftStoreApp/UserRegistration.swift; sourceTree = "<group>"; };
+		E0F3BA881C65E8AF00F7C71C /* Y1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Y1.png; sourceTree = "<group>"; };
+		E0F3BA8A1C65E8AF00F7C71C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		FF1AE3411C54CBDD00F24619 /* SwiftStoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1AE3441C54CBDD00F24619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF1AE3461C54CBDD00F24619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF1AE3491C54CBDD00F24619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF1AE34B1C54CBDD00F24619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1AE34E1C54CBDD00F24619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -218,6 +232,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0E040B61C5CA0F800C1E72D /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				E0E040C41C5CD2D300C1E72D /* PageItemController.swift */,
+				E0E040BD1C5CA19A00C1E72D /* ProductList.swift */,
+				E0E040C01C5CB77300C1E72D /* ProductDetail.swift */,
+			);
+			name = ProductList;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E0E6660C1C60EC1300DD479B /* UserControl */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6660D1C60EEDE00DD479B /* UserLogin.swift */,
+				E0E6660F1C60EF2000DD479B /* UserRegistration.swift */,
+			);
+			name = UserControl;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		FF1AE3381C54CBDD00F24619 = {
 			isa = PBXGroup;
 			children = (
@@ -241,14 +276,15 @@
 		FF1AE3431C54CBDD00F24619 /* SwiftStoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				E0E6660C1C60EC1300DD479B /* UserControl */,
 				FF1AE3BD1C54DA0000F24619 /* AdMob */,
 				FF1AE3B21C54D51800F24619 /* Facebook */,
 				FF1AE3871C54CF8400F24619 /* Alamofire */,
 				FF1AE3741C54CCF200F24619 /* SQLite */,
 				FF1AE3731C54CC7100F24619 /* images */,
 				FF1AE3721C54CC6000F24619 /* icons */,
+				E0E040B61C5CA0F800C1E72D /* ProductList */,
 				FF1AE3441C54CBDD00F24619 /* AppDelegate.swift */,
-				FF1AE3461C54CBDD00F24619 /* ViewController.swift */,
 				FF1AE3481C54CBDD00F24619 /* Main.storyboard */,
 				FF1AE34B1C54CBDD00F24619 /* Assets.xcassets */,
 				FF1AE34D1C54CBDD00F24619 /* LaunchScreen.storyboard */,
@@ -278,6 +314,9 @@
 		FF1AE3721C54CC6000F24619 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				E0D7B9971C66393A002A8317 /* basket.png */,
+				E0F3BA8A1C65E8AF00F7C71C /* 1.png */,
+				E0F3BA881C65E8AF00F7C71C /* Y1.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -431,6 +470,7 @@
 				TargetAttributes = {
 					FF1AE3401C54CBDD00F24619 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2ZD7VCRH8S;
 					};
 					FF1AE3541C54CBDD00F24619 = {
 						CreatedOnToolsVersion = 7.2;
@@ -525,10 +565,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F3BA8E1C65E8AF00F7C71C /* 1.png in Resources */,
+				E0F3BA8C1C65E8AF00F7C71C /* Y1.png in Resources */,
 				FF1AE3D91C54DC4B00F24619 /* reklamEkle.png in Resources */,
 				FF1AE37B1C54CD1200F24619 /* proje.db in Resources */,
 				FF1AE34F1C54CBDD00F24619 /* LaunchScreen.storyboard in Resources */,
 				FF1AE34C1C54CBDD00F24619 /* Assets.xcassets in Resources */,
+				E0D7B9981C66393A002A8317 /* basket.png in Resources */,
 				FF1AE3BA1C54D88000F24619 /* facebook_baglanti_yap.png in Resources */,
 				FF1AE34A1C54CBDD00F24619 /* Main.storyboard in Resources */,
 			);
@@ -556,13 +599,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1AE37C1C54CD1200F24619 /* SQLiteDB.swift in Sources */,
+				E0E040BE1C5CA19A00C1E72D /* ProductList.swift in Sources */,
+				E0E6660E1C60EEDE00DD479B /* UserLogin.swift in Sources */,
 				FF1AE3811C54CDB600F24619 /* ornekSQliteDuzenleSil.swift in Sources */,
+				E0E040C51C5CD2D300C1E72D /* PageItemController.swift in Sources */,
+				E0E666101C60EF2000DD479B /* UserRegistration.swift in Sources */,
 				FF1AE37D1C54CD1200F24619 /* String-Extras.swift in Sources */,
 				FF1AE3AF1C54D2C600F24619 /* uploadClass.swift in Sources */,
-				FF1AE3471C54CBDD00F24619 /* ViewController.swift in Sources */,
 				FF1AE3B11C54D3C400F24619 /* ornekAlamofireGETPOST.swift in Sources */,
 				FF1AE3451C54CBDD00F24619 /* AppDelegate.swift in Sources */,
 				FF1AE3BC1C54D8A300F24619 /* ornekFacebookBaglanResimCikis.swift in Sources */,
+				E0E040C11C5CB77300C1E72D /* ProductDetail.swift in Sources */,
 				FF1AE3D71C54DC0600F24619 /* ornekReklam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -710,19 +757,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SwiftStoreApp",
 				);
 				INFOPLIST_FILE = SwiftStoreApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftStoreApp",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.SwiftStoreApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cihat.SwiftStoreApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = kopru.h;
 			};
 			name = Debug;
@@ -731,19 +783,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SwiftStoreApp",
 				);
 				INFOPLIST_FILE = SwiftStoreApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftStoreApp",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hakan.SwiftStoreApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cihat.SwiftStoreApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = kopru.h;
 			};
 			name = Release;

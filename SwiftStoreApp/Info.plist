@@ -32,7 +32,7 @@
 	<key>FacebookAppID</key>
 	<string>1719580784919994</string>
 	<key>FacebookDisplayName</key>
-	<string>Swift 2 - iOS Login</string>
+	<string>SwiftStoreApp </string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -44,6 +44,8 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>akamaihd.net</key>
